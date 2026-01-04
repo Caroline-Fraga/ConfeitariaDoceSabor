@@ -4,6 +4,8 @@ Projeto simples de interface para listar, adicionar e excluir produtos de uma co
 
 [![Deploy - GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-blue?logo=github&style=flat-square)](https://caroline-fraga.github.io/ConfeitariaDoceSabor/)
 
+https://github.com/user-attachments/assets/6c73c314-e1e6-48d3-8166-9ac2a5fffdd2
+
 ## 📝 Descrição
 
 Aplicação front-end estática (HTML/CSS/JS) que consome uma API REST simples para gerenciar produtos. Os dados de exemplo ficam em `database/db.json` e a API de desenvolvimento pode ser iniciada com `json-server` (script já presente em `package.json`).
