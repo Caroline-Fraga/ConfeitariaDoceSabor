@@ -1,0 +1,124 @@
+{
+  "produtos": [
+    {
+      "nome": "Bolo de Morango com Chantilly",
+      "preco": "55,00",
+      "imagem": "https://i.postimg.cc/tgRvPKCQ/bolo-morango.png",
+      "id": 1
+    },
+    {
+      "nome": "Bolo de Chocolate",
+      "preco": "50,00",
+      "imagem": "https://i.postimg.cc/QxsL4gND/bolo-chocolate.png",
+      "id": 2
+    },
+    {
+      "nome": "Bolo de Coco",
+      "preco": "45,00",
+      "imagem": "https://i.postimg.cc/15xFLtbs/bolo-coco.png",
+      "id": 3
+    },
+    {
+      "nome": "Torta de Limão",
+      "preco": "40,00",
+      "imagem": "https://i.postimg.cc/KjpH8TTq/torta-limao.png",
+      "id": 4
+    },
+    {
+      "nome": "Torta de Maçã com Canela",
+      "preco": "45,00",
+      "imagem": "https://i.postimg.cc/9fSP0Bgq/torta-maca.png",
+      "id": 5
+    },
+    {
+      "nome": "Beijinho Gourmet",
+      "preco": "3,50 (unidade)",
+      "imagem": "https://i.postimg.cc/FRYYd5k9/beijinho-gourmet.png",
+      "id": 6
+    },
+    {
+      "nome": "Brigadeiro Gourmet",
+      "preco": "3,50 (unidade)",
+      "imagem": "https://i.postimg.cc/pL7bWwvQ/brigadeiro-gourmet.png",
+      "id": 7
+    },
+    {
+      "nome": "Bombom de Brigadeiro",
+      "preco": "4,00 (unidade)",
+      "imagem": "https://i.postimg.cc/jdZMKyTy/bombom-brigadeiro.png",
+      "id": 8
+    },
+    {
+      "nome": "Bombom de Chocolate Branco",
+      "preco": "4,00 (unidade)",
+      "imagem": "https://i.postimg.cc/yYkZgR9m/bombom-chocolatebranco.png",
+      "id": 9
+    },
+    {
+      "nome": "Croissant de Chocolate",
+      "preco": "10,00",
+      "imagem": "https://i.postimg.cc/C1R4F2F8/croissant-chocolate.png",
+      "id": 10
+    },
+    {
+      "nome": "Croissant Tradicional",
+      "preco": "8,00",
+      "imagem": "https://i.postimg.cc/B6fv6L3C/croissant-tradicional.png",
+      "id": 11
+    },
+    {
+      "nome": "Donut de Baunilha",
+      "preco": "8,00",
+      "imagem": "https://i.postimg.cc/ncKSwM0Q/donut-baunilha.png",
+      "id": 12
+    },
+    {
+      "nome": "Donut de Chocolate",
+      "preco": "10,00",
+      "imagem": "https://i.postimg.cc/qvzn65hM/donut-chocolate.png",
+      "id": 13
+    },
+    {
+      "nome": "Donut de Morango",
+      "preco": "9,00",
+      "imagem": "https://i.postimg.cc/635zShb7/donut-morango.png",
+      "id": 14
+    },
+    {
+      "nome": "Cupcake de Baunilha",
+      "preco": "7,50",
+      "imagem": "https://i.postimg.cc/664pRxzP/cupcake-baunilha.png",
+      "id": 15
+    },
+    {
+      "nome": "Cupcake de Limão",
+      "preco": "7,00",
+      "imagem": "https://i.postimg.cc/G2y9bW56/cupcake-limao.png",
+      "id": 16
+    },
+    {
+      "nome": "Cupcake Red Velvet",
+      "preco": "8,50",
+      "imagem": "https://i.postimg.cc/0jy3Yv1B/cupcake-redvelvet.png",
+      "id": 17
+    },
+    {
+      "nome": "Macarron de Chocolate",
+      "preco": "5,50 (unidade)",
+      "imagem": "https://i.postimg.cc/Kj1fc82x/macarron-chocolate.png",
+      "id": 18
+    },
+    {
+      "nome": "Macarron de Framboesa",
+      "preco": "6,00 (unidade)",
+      "imagem": "https://i.postimg.cc/cJdcgmSD/macarron-framboesa.png",
+      "id": 19
+    },
+    {
+      "id": 20,
+      "nome": "Macarron de Limão Siciliano",
+      "preco": "6,50 (unidade)",
+      "imagem": "https://i.postimg.cc/fLLj5Rkm/macarron-limaosiciliano.png"
+    }
+  ]
+}

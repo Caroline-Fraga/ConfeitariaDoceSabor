@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doce Sabor Confeitaria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="cabecalho" role="banner">
+        <div class="marca" aria-label="Doce Sabor Confeitaria">
+            <div class="marca__texto">
+                <span class="marca__titulo-superior">Doce Sabor</span>
+                <span class="marca__titulo-inferior">Confeitaria</span>
+            </div>
+            <!-- ícone de coração decorativo -->
+            <svg class="marca__icone" width="36" height="36" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <!-- caminho de coração arredondado e 'fofo' -->
+                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 6 3.99 4 6.5 4c1.54 0 3.04.99 3.57 2.36h1.87C13.46 4.99 14.96 4 16.5 4 19.01 4 21 6 21 8.5c0 3.78-3.4 6.86-7.55 11.54L12 21.35z" fill="var(--cor-coracao)"/>
+            </svg>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main class="conteudo">
+        <!-- Seção de Produtos -->
+        <section class="conteudo__produtos">
+            <h2 class="conteudo__produtos__titulo">Lista de Produtos</h2>
+            <div class="conteudo__produtos__cartoes" data-lista-produtos>
+                <!-- Cartões renderizados pela API -->
+            </div>
+        </section>
+
+        <!-- Seção de Adicionar Produtos -->
+        <section class="conteudo__adicionar">
+            <h2 class="conteudo__adicionar__titulo">Adicionar Produtos</h2>
+            <form class="conteudo__adicionar__formulario" data-form-adicionar autocomplete="off" aria-label="Formulário de adicionar produto" novalidate>
+            <label class="formulario__label" for="nome">Nome:</label>
+            <input class="formulario__input" id="nome" data-input-nome placeholder="Ex: Bolo de Chocolate" type="text">
+
+                <label class="formulario__label" for="preco">Preço:</label>
+                    <input class="formulario__input" id="preco" data-input-preco placeholder="Ex: 10,50" type="text" inputmode="decimal" pattern="[0-9,\.\s]+">
+
+                <label class="formulario__label" for="imagem">Imagem (URL):</label>
+                <input class="formulario__input" id="imagem" data-input-imagem placeholder="Ex: https://..." type="text">
+
+                <div class="formulario__botoes">
+                    <button type="submit" class="formulario__botao formulario__botao--adicionar">Adicionar</button>
+                    <button type="reset" class="formulario__botao formulario__botao--limpar">Limpar</button>
+                </div>
+                <div id="mensagem-erro-formulario" class="mensagem-erro-input visually-hidden" role="alert" aria-live="assertive"></div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="rodape" role="contentinfo">
+        <p class="visually-hidden">Logo da confeitaria</p>
+        <p class="rodape__texto">© Desenvolvido por Caroline Fraga</p>
+    </footer>
+
+    <!-- Mensagens de status (acessibilidade) -->
+    <div id="mensagem-sucesso" role="status" aria-live="polite" class="visually-hidden"></div>
+    <div id="mensagem-erro" role="alert" aria-live="assertive" class="visually-hidden"></div>
+
+    <script type="module" src="js/controladores/main.js"></script>
+</body>
+</html>
