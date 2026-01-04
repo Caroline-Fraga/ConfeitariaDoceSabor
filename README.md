@@ -1,5 +1,3 @@
-
-
 # 🍰 Confeitaria Doce Sabor
 
 Projeto simples de interface para listar, adicionar e excluir produtos de uma confeitaria.
@@ -71,4 +69,5 @@ npx http-server . -o
 - ⚠️ Verificar comportamento em pastas sincronizadas (OneDrive) e documentar requisitos de permissão no Windows
 
 ---
+
 
