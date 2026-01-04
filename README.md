@@ -4,7 +4,7 @@ Projeto simples de interface para listar, adicionar e excluir produtos de uma co
 
 [![Deploy - GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-blue?logo=github&style=flat-square)](https://caroline-fraga.github.io/ConfeitariaDoceSabor/)
 
-https://github.com/user-attachments/assets/6c73c314-e1e6-48d3-8166-9ac2a5fffdd2
+https://github.com/user-attachments/assets/89e99c6a-8667-4d89-a2ba-272ceb0c935f
 
 ## 📝 Descrição
 
